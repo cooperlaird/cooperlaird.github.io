@@ -1,0 +1,159 @@
+
+body {
+    background-color: #F2F2F2;
+}
+
+p {
+    font-family: Verdana, sans-serif;
+    font-size: 14px;
+}
+
+h1.textlogo {
+    font-family: "Courier New", monospace;
+    font-size: 40px;
+    text-align: center;
+}
+
+h2 {
+    font-family: "Courier New", monospace;
+    font-size: 20px;
+    text-align: center;
+    background-color: #6bbfa0;
+    color: #ffffff;
+    padding: 5px;
+}
+
+h3 {
+    font-family: "Courier New", monospace;
+    font-size: 20px;
+    text-align: center;
+    padding: 5px;
+}
+
+a, li a {
+    color: #000000;
+}
+
+#nav ul{
+    list-style: none;
+    padding: 0;
+    gap: 10px;
+    display: flex;
+}
+
+#nav li{
+    text-align: center;
+    flex-grow: 1;
+}
+
+#nav a {
+    font-family: Verdana, sans-serif;
+    font-size: 14px;
+    text-transform: lowercase;
+    text-decoration: none;
+}
+
+#nav a:hover {
+    background-color: #6bbfa0;
+    color: #ffffff;
+    padding: 10px;
+    text-decoration: overline;
+    font-weight: bold;
+}
+
+#container {
+    display: flex;
+    flex-direction: row;
+}
+
+#main {
+    flex: 0 1 70%
+}
+
+#aside {
+    flex: 0 1 30%;
+}
+
+.profile {
+    width: 200px;
+    height: 200px;
+    float: left;
+}
+
+.sm-emphasis{
+    color: #A62D37;
+    font-weight: bold;
+}
+
+.emphasis{
+    display: block;
+    font-family: 'Courier New', monospace;
+    font-size: 20px;
+    text-align: center;
+    font-weight: bold;
+    background-color: #A62D37;
+    color: white;
+    padding: 10px;
+    margin: 50px 
+    /* margin added to increase similarity to reference image */
+}
+
+.aboutprofile{
+    width: 70%;
+    border: 10px solid #A62D37;
+    border-radius: 10px;
+    margin: 10px;
+    /* margin added to increase similarity to reference image */
+}
+
+table, td {
+    font-family: "Courier New", monospace;
+    font-size: 15px;
+    text-align: center;
+    border: 5px solid #b0b0b0;
+    border-collapse: collapse;
+    padding: 5px;
+}
+
+thead {
+    background-color: #6bbfa0;
+    color: #ffffff;
+    font-weight: bold;
+}
+
+.speciallink {
+    font-family: "Courier New", monospace;
+    font-size: 15px;
+    text-align: center;
+    background-color: #A62D37;
+    color: white;
+    padding: 5px;
+    text-decoration: none;
+}
+
+#main > div {
+    border: 1px solid #b0b0b0;
+    border-radius: 10px;
+    padding: 10px;
+    margin: 10px;
+}
+
+h4 {
+    font-family: "Courier New", monospace;
+    font-size: 15px;
+    text-align: center;
+    background-color: #A62D37;
+    color: white;
+    padding: 5px;
+}
+
+h5 {
+    font-family: "Courier New", monospace;
+    font-size: 12px;
+    padding: 5px;
+}
+
+ ul {
+    font-family: Verdana, sans-serif;
+    font-size: 14px;
+}

@@ -1,0 +1,69 @@
+<!-- Example IPv4 Address: 192.168.0.1 -->
+
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title></title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        <div id="header">
+        <h1 class="textlogo">Pancake De Lira</h1>
+        <h2>Web Developer & Best Guinea Pig</h2>
+        </div>
+
+        <div id="nav">
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="resume.html">Resume</a></li>
+                <li><a href="contact.html">Contact me</a></li>
+            </ul>
+      
+        <div id="container">
+            <div id="main">
+                <img src="pancake-profile.png" alt="Pancake’s Profile Picture" class="profile">
+                <h3>Hi! I'm Pancake</h3>
+                <p>
+                    I have almost 5 years of experience of being a guinea
+                    pig, but 0 years of experience web developing. However, I am very confident that I
+                    can do a very good job at creating a website as long as my mom can do all the work
+                    for me. As a guinea pig, I am an avid and professional eater of lettuce, producer of
+                    intricate hay nests and hideouts, and the loudest wheeker in Pullman, WA. My
+                    wheeks are so loud, I scare my mom at 3 a.m. in the morning. That should tell you,
+                    <span class="sm-emphasis">I'm good at what I do as a guinea pig.</span>
+                    <span class="emphasis"> I may not know what to do if you needed a full stack website, but I know I'm the best guinea pig </span>
+                </p>
+            </div>
+            <div id="aside">
+            
+            </div>
+        </div>
+        <script>
+            function evenCountdown(eNum) {
+                for (let i = 1; i <= eNum; i++) {
+                    console.log(i);
+                }
+            }
+        
+            const userInput = prompt("Enter a number:");
+        
+            if (userInput !== null && !isNaN(userInput)) {
+                 num = parseInt(userInput);
+        
+                if (num % 2 === 0) {
+                    evenCountdown(num);
+                } else {
+                    console.log("This is an odd number");
+                }
+            } else {
+                console.log("Invalid input or canceled.");
+            }
+        </script>
+    </body>
+</html>
