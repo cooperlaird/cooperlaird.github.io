@@ -24,10 +24,11 @@
                 <li><a href="resume.html">Resume</a></li>
                 <li><a href="contact.html">Contact me</a></li>
             </ul>
+            </div>
       
         <div id="container">
             <div id="main">
-                <img src="pancake-profile.png" alt="Pancake’s Profile Picture" class="profile">
+                <img src="resources/pancake-profile.png" alt="Pancake’s Profile Picture" class="profile">
                 <h3>Hi! I'm Pancake</h3>
                 <p>
                     I have almost 5 years of experience of being a guinea
@@ -45,16 +46,17 @@
             </div>
         </div>
         <script>
+
             function evenCountdown(eNum) {
                 for (let i = 1; i <= eNum; i++) {
                     console.log(i);
                 }
             }
         
-            const userInput = prompt("Enter a number:");
+            userInput = prompt("Enter a number:");
         
             if (userInput !== null && !isNaN(userInput)) {
-                 num = parseInt(userInput);
+                 num = userInput;
         
                 if (num % 2 === 0) {
                     evenCountdown(num);
@@ -64,6 +66,7 @@
             } else {
                 console.log("Invalid input or canceled.");
             }
+
         </script>
     </body>
 </html>
